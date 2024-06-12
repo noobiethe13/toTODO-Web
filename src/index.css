@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    @apply box-border font-sans;
+  }
+
+  body {
+    @apply max-w-fit ml-0 p-0 bg-yellow-200 text-black;
+  }
+}
